@@ -30,7 +30,7 @@ jobs:
             bash extract-files.sh ../../../../device/tecno/TECNO-KE6
             echo "another"
             
-            cd ..
+            cd ../vendor/tecno/TECNO-KE6
             rm -rf .git
             git init
             git add .

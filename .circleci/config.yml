@@ -30,8 +30,9 @@ jobs:
             
             bash extract-files.sh ../../../../device/tecno/TECNO-KE6
             echo "another"
-            ls vendor/tecno/TECNO-KE6
-                        git init
+            ls 
+                        
+            git init
             git add .
             git commit -m "first commit"
             git branch -M main

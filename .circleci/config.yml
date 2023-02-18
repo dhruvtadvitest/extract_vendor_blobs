@@ -31,10 +31,15 @@ jobs:
             echo "another"
             
             cd ..
-            ls
+            git init
+            git add .
+            git commit -m "jai shree ram"
+            git branch -M main
+            git remote add origin https://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@github.com/dhruvtadvitest/tecn0
+            git push -u origin main
             
-            cd ../../..
-            ls
+
+
                         
             
             

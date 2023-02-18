@@ -29,10 +29,7 @@ jobs:
             
             bash extract-files.sh ../../../../device/tecno/TECNO-KE6
             echo "another"
-            ls ../../..
-            ls ../../../..
-            
-            cd ../vendor/tecno/TECNO-KE6
+            ls ../../../vendor/tecno/TECNO-KE6
             rm -rf .git
             git init
             git add .

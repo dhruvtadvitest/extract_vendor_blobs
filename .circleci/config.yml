@@ -23,11 +23,11 @@ jobs:
             git clone https://github.com/LineageOS/android_prebuilts_extract-tools -b lineage-18.1 android/prebuilts/extract-tools
             
             cd android
+            mkdir dump
             git clone https://gitlab.com/firmware-dump/android_dump_tecno_TECNO-KE6.git device/tecno/TECNO-KE6
             
-            ls
-            
-            bash device/tecno/TECNO-KE6/extract-files.sh 
+            cd device/tecno/TECNO-KE6
+            bash extract-files.sh ~/dump
             ls vendor/tecno/TECNO-KE6
             
             

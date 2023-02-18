@@ -25,7 +25,7 @@ jobs:
             cd android
             git clone https://gitlab.com/firmware-dump/android_dump_tecno_TECNO-KE6.git device/tecno/TECNO-KE6
             
-            bash extract-files.sh device/tecno/TECNO-KE6
+            bash device/tecno/TECNO-KE6/extract-files.sh 
             ls vendor/tecno/TECNO-KE6
             
             

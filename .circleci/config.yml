@@ -18,12 +18,11 @@ jobs:
             git config --global user.name "test"
             git config --global user.email "test@gmail.com"
             
-     
-            git clone https://github.com/LineageOS/android_tools_extract-utils -b lineage-18.1 tools/extract-utils
-            git clone https://github.com/LineageOS/android_prebuilts_extract-tools -b lineage-18.1 prebuilts/extract-tools
-            
             
             git clone https://gitlab.com/firmware-dump/android_dump_tecno_TECNO-KE6.git device/tecno/TECNO-KE6
+            
+            git clone https://github.com/LineageOS/android_tools_extract-utils -b lineage-18.1 device/tools/extract-utils
+            git clone https://github.com/LineageOS/android_prebuilts_extract-tools -b lineage-18.1 device/prebuilts/extract-tools
             
             cd device/tecno/TECNO-KE6
             cd lineage-device-tree

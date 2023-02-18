@@ -35,7 +35,7 @@ jobs:
             git commit -m "jai shree ram"
             git branch -M main
             git remote add origin https://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@github.com/dhruvtadvitest/tecn0
-            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 | git push https://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@github.com/dhruvtadvitest/tecn0.git
+            git push https://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@github.com/dhruvtadvitest/tecn0.git | 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
 
             
 

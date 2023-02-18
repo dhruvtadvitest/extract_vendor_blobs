@@ -29,6 +29,8 @@ jobs:
             
             bash extract-files.sh ../../../../device/tecno/TECNO-KE6
             echo "another"
+            ls ../vendor
+            ls ../vendor/tecno
             
             cd ../vendor/tecno/TECNO-KE6
             rm -rf .git

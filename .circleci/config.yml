@@ -34,7 +34,7 @@ jobs:
             git add .
             git commit -m "Initial Vendor Tree"
             git branch -M main
-            git remote add origin https://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@github.com/dhruvtadvitest/techno-ke6-vendor
+            git remote add origin https://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@github.com/dhruvtadvitest/vendor_tecno_KE6.git
             git push -u origin main
 
 

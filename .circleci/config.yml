@@ -26,11 +26,15 @@ jobs:
             
             cd device/tecno/TECNO-KE6
             cd lineage-device-tree
-            ls
             
             bash extract-files.sh ../../../../device/tecno/TECNO-KE6
             echo "another"
-            ls 
+            
+            cd ..
+            ls
+            
+            cd ../../..
+            ls
                         
             
             

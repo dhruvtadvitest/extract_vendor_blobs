@@ -28,7 +28,7 @@ jobs:
             cd lineage-device-tree
             ls
             
-            bash extract-files.sh
+            bash extract-files.sh ../../../../device/tecno/TECNO-KE6
             ls ~/dump
             echo "another"
             ls vendor/tecno/TECNO-KE6
